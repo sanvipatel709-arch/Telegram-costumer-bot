@@ -9,7 +9,7 @@ from telegram.ext import (
 
 TOKEN = os.getenv("BOT_TOKEN")
 
-QR_IMAGE = "qr.jpg"
+QR_IMAGE = "IMG_20260714_203456_755.JPG
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
